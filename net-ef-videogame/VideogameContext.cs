@@ -13,7 +13,7 @@ namespace net_ef_videogame
         public DbSet<SoftwareHouse> SoftwareHouses { get; set; }
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer("Server=localhost;Database=db-videogames;Trusted_Connection=True;TrustServerCertificate=True;");
+        optionsBuilder.UseSqlServer("Server=localhost;Database=db-manual;Trusted_Connection=True;TrustServerCertificate=True;");
     }
     }
 }
